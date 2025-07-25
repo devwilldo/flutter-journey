@@ -1,0 +1,99 @@
+# ===================
+# Flutter & Dart
+# ===================
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+pubspec.lock
+
+# Flutter generated files
+**/GeneratedPluginRegistrant.*
+**/*.g.dart
+**/*.freezed.dart
+
+# ===================
+# Platform - Android
+# ===================
+android/.gradle/
+android/.idea/
+android/local.properties
+android/.flutter-plugins
+android/.flutter-plugins-dependencies
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# ===================
+# Platform - iOS/macOS
+# ===================
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/.flutter-plugins
+ios/.flutter-plugins-dependencies
+ios/Flutter/ephemeral/
+
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/.symlinks/
+macos/Runner.xcworkspace/
+macos/.flutter-plugins
+macos/.flutter-plugins-dependencies
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+*.xcuserdatad/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Podfile.lock
+
+# ===================
+# Platform - Web
+# ===================
+web/.dart_tool/
+web/build/
+
+# ===================
+# Editor/IDE
+# ===================
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===================
+# OS-specific files
+# ===================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===================
+# Misc
+# ===================
+*.lock
+*.log
+*.tmp
+*.swp
+.env
+.env.*
