@@ -1,14 +1,14 @@
 # ===================
-# Flutter & Dart
+# Flutter & Dart (recursive)
 # ===================
-.dart_tool/
-.packages
-.pub-cache/
-build/
-.flutter-plugins
-.flutter-plugins-dependencies
-.melos_tool/
-pubspec.lock
+**/.dart_tool/
+**/.packages
+**/.pub-cache/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.melos_tool/
+**/pubspec.lock
 
 # Flutter generated files
 **/GeneratedPluginRegistrant.*
@@ -16,84 +16,84 @@ pubspec.lock
 **/*.freezed.dart
 
 # ===================
-# Platform - Android
+# Android (recursive)
 # ===================
-android/.gradle/
-android/.idea/
-android/local.properties
-android/.flutter-plugins
-android/.flutter-plugins-dependencies
-android/app/debug/
-android/app/profile/
-android/app/release/
+**/android/.gradle/
+**/android/.idea/
+**/android/local.properties
+**/android/.flutter-plugins
+**/android/.flutter-plugins-dependencies
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
 
 # ===================
-# Platform - iOS/macOS
+# iOS/macOS (recursive)
 # ===================
-ios/Flutter/Flutter.podspec
-ios/.symlinks/
-ios/Pods/
-ios/Runner.xcworkspace/
-ios/.flutter-plugins
-ios/.flutter-plugins-dependencies
-ios/Flutter/ephemeral/
+**/ios/Flutter/Flutter.podspec
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/.flutter-plugins
+**/ios/.flutter-plugins-dependencies
+**/ios/Flutter/ephemeral/
 
-macos/Flutter/ephemeral/
-macos/Pods/
-macos/.symlinks/
-macos/Runner.xcworkspace/
-macos/.flutter-plugins
-macos/.flutter-plugins-dependencies
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/Runner.xcworkspace/
+**/macos/.flutter-plugins
+**/macos/.flutter-plugins-dependencies
 
 # Xcode
-*.xcworkspace
-*.xcuserstate
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
-*.xcuserdatad/
-DerivedData/
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
+**/*.xcworkspace
+**/*.xcuserstate
+**/*.xcodeproj/*
+!**/*.xcodeproj/project.pbxproj
+!**/*.xcodeproj/xcshareddata/
+!**/*.xcworkspace/contents.xcworkspacedata
+**/*.xcuserdatad/
+**/DerivedData/
+**/*.hmap
+**/*.ipa
+**/*.dSYM.zip
+**/*.dSYM
 
 # CocoaPods
-Podfile.lock
+**/Podfile.lock
 
 # ===================
-# Platform - Web
+# Web (recursive)
 # ===================
-web/.dart_tool/
-web/build/
+**/web/.dart_tool/
+**/web/build/
 
 # ===================
 # Editor/IDE
 # ===================
-.vscode/
-.idea/
-*.iml
-*.iws
-*.ipr
+**/.vscode/
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
 
 # ===================
-# OS-specific files
+# OS-specific
 # ===================
 # macOS
-.DS_Store
+**/.DS_Store
 
 # Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+**/Thumbs.db
+**/ehthumbs.db
+**/Desktop.ini
 
 # ===================
 # Misc
 # ===================
-*.lock
-*.log
-*.tmp
-*.swp
-.env
-.env.*
+**/*.lock
+**/*.log
+**/*.tmp
+**/*.swp
+**/.env
+**/.env.*
