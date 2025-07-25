@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: CounterScreen(),
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true
+       ,
     );
   }
 }
